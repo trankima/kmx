@@ -1,0 +1,230 @@
+@charset "UTF-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body{
+	font-family: 'Open Sans', sans-serif;
+	}
+html{
+	scroll-behavior: smooth;
+	}
+*{
+	margin: 0px;
+	padding: 0px;
+	}
+.header{
+	width: 25%;
+	height: 100vh;
+	background: rgba(241,248,96,0.58);
+	position: fixed;
+	padding: 48px;
+	box-sizing: border-box;
+		}
+.logo{
+	height: 23px;
+	width: 32px;
+	padding: inherit;
+}
+.nav{
+/*	background: aqua;*/
+	padding: 100px 0px;
+	}
+.nav ul{
+	list-style: none;
+	}
+.nav ul li{
+	height: 48px;
+	line-height: 48px;
+	width: 100%;
+	border-bottom: 1px solid #969696;
+	}
+.nav ul li:last-child{
+	border: none;
+	}
+.nav ul li a{
+	text-decoration: none;
+	color: #1f1f1f;
+	display: block;
+	}
+.nav ul li a:hover{
+	
+	color: #ff565f;
+	
+	}
+.main{
+	width: 75%;
+/*	background: red;*/
+	float: right;
+	}
+.banner{
+	height: 100vh;
+	background-image: url( "Images/doithienphucduc_optimized-1.jpg");
+	background-size: cover;
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	z-index: 2;
+	}
+.banner:after{
+	content: "";
+	height: 100vh;
+	width: 100%;
+	background: rgba(0,0,0,0.4);
+	position: absolute;
+	top: 0px;
+	z-index: -2;
+	}
+
+.text-box{
+	position: absolute;
+	color: white;
+	text-align: center;
+	}
+.text-box h1{
+	font-size: 40px;
+	text-transform: uppercase;
+	margin-bottom: 18px;
+	}
+.text-box img{
+	width: 300px;
+	}
+.bot-menu form input{
+	padding: 12px 0px;
+	width: 100%;
+	border: none;
+	border-bottom: 1px solid #969696;
+	outline: none;
+	}
+.icon{
+	padding: 20px 0px;
+	}
+.icon a{
+	margin-right: 5px;
+	color: #1f1f1f;
+	}
+.icon a:hover{
+	color: #ff565f;
+	}
+.arrow{
+	font-size: 48px;
+	position: absolute;
+	bottom: 20px;
+	cursor: pointer;
+	}
+.arrow a{
+	color: white;
+	}
+.arrow a:hover{
+	color: #ff565f;
+	}
+.about{
+	height: 100%;
+	width: 100%;
+	color: white;
+	}
+.service{
+	height: 455px;
+	color: black;
+	background: white;
+	width: 100%;
+	}
+.thuhai{
+	height: 680px;
+	color: white;
+	width: 100%;
+	display: flex;
+}
+.thuba{
+	height: 600px;
+	color: white;
+	width: 100%;
+	display: flex;
+}
+.about video{
+	width: 96%;
+	height: 83%;
+	align-items: center;
+	margin-left: 22px;
+	margin-top: 50px;
+	border-radius: 70px;
+	box-shadow: 0 0 29px rgb(0, 255, 55);
+}
+.cen{
+	display: flex;
+}
+.khung1{
+	text-align: center;
+    font-size: 35px;
+    font-weight: bolder;
+}
+.khung2{
+	margin-left: 50px;
+}
+.khung3{
+	margin-left: 50px;
+}
+.img3{
+	margin-left: 100px;
+}
+.img2{
+	margin-left: 100px;
+}
+.buttonQLDL{
+	margin-left: 130px;
+    margin-top: 20;
+    background: green;
+    border-radius: 17px;
+    padding: 7px;
+}
+.buttonLKHSK{
+	margin-left: 130px;
+    margin-top: 20;
+    background: green;
+    border-radius: 17px;
+    padding: 7px;
+}
+.pk1{
+	height: 520px;
+	width: 30%;
+	margin-left: 2.5%;
+}
+.pk2{
+	height: 520px;
+	width: 30%;
+	margin-left: 2.5%;
+}
+.pk3{
+	height: 520px;
+	margin-left: 2.5%;
+	width: 30%;
+}
+.idl{
+	margin-top: 48px;
+    margin-left: 40px;
+    height: 250;
+    width: 250;
+}
+.nd{
+	margin-top: 10px;
+	margin-left: 40px;
+	color: black;
+}
+.td{
+	margin-left: 40px;
+	font-size: 30px;
+	color: black;
+}
+.ba1{
+	width: 50%;
+	padding: 30px 30px;
+	color: black;
+	font-size: 18px;
+}
+.ba2{
+	width: 50%;
+}
+.ba2 .im{
+	margin-top: 20px;
+	margin-left: 30px;
+}
